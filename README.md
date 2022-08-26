@@ -4,4 +4,4 @@
 React.js
 
 ### Server
-MongoDB, Express.js, Node.js 
+Express.js, Node.js 
