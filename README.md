@@ -1,4 +1,4 @@
-# Getting started with MERN Stack
+# React - Express Boilerplate
 
 ### Client
 React.js
