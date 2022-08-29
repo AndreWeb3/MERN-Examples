@@ -1,14 +1,17 @@
-import Helloworld from './Main/Helloworld'
+import Locations from './main/Locations'
 import logo from '../images/logo.svg'
 import '../styles/styles.css'
 
 function Main() {
   return (
     <div className="main">
-        <div>
+        <div className="logoContainer">
             <img src={logo} className="logo" alt="logo" />
         </div>
-        <Helloworld />
+        <div className="resultsContainer">
+          <Locations />
+        </div>
+
     </div>
   );
 }

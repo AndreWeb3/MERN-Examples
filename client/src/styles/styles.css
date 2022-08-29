@@ -16,10 +16,20 @@
   background-color: #282c34;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+  overflow-y: scroll;
+}
+
+.logoContainer {
+  height: 25vh;
+  padding: 5vh 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -46,8 +56,91 @@
   }
 }
 
-.hello {
-  padding: 22px
+.button {
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  width: 10vw;
+  background-color: #61dafb;
+  color: #282c34;
+  font-weight: bold;
+  border: solid .11px white
+}
+
+.inputLocPop {
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background-color: white;
+  height: 450px;
+  width: max(37vw, 400px);
+  left: 0;
+  right: 0;
+  top: 11vh;
+  margin: auto;
+  color: #282c34;
+  opacity: .975;
+}
+
+.addLocForm {
+  width: 33%;
+  z-index: 999;
+  flex-flow: column wrap;
+  justify-content: start;
+  color: #282c34;
+  border: solid 1px black;
+  margin: 37px;
+  padding: 3px 37px;
+  background-color: whitesmoke;
+  opacity: 1;
+}
+
+.inputContainer {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.locInputField {
+  margin: 7px;
+  height: 33px;
+  border: solid 1px black;
+  font-weight: 500;
+  padding-left: 7px;
+}
+
+.locInputSubmitButton {
+  background-color: blue;
+  height: 42px;
+  color: white;
+  font-weight: bold;
+  margin: 11px 7px;
+}
+
+.locInputDeleteButton {
+  background-color: red;
+  height: 42px;
+  color: white;
+  font-weight: bold;
+  margin: 11px 7px;
+}
+
+.resultsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.locationsContainer {
+  padding: 2.5vh 2.5vw;
+}
+
+.locationResults {
+  padding: .5vh;
+}
+
+.locItems {
+  color: white!important;
 }
 
 .footer {

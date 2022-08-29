@@ -1,4 +1,4 @@
-# Getting started with MERN Stack
+# MERN Stack
 
 ### Client
 React.js
